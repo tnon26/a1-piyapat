@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hi, I'm Nont</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <script defer src="script.js"></script>
+
+</head>
+
+<body>
+
+    <header>
+        <h1>Hi!</h1>
+    </header>
+
+    <nav>
+        <ol>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ol>
+    </nav>
+    
+    <br>
+
+    <main>
+        <section id="about">
+        
+            <h3>👋🏻 Hello I'm</h3>
+            <h1 id="nont">NONT</h1>
+            <h5>I’m a man who flew from Bangkok, Thailand 🇹🇭, to pursue my dreams in Toronto, Canada. 🇨🇦 
+                <br>
+                Right now, I’m in my second semester of the Multimedia Design and Development program at Humber Polytechnic (formerly Humber College 😐).</h5>
+                <br>
+            <h3>🎉 Nice to meet you! 🎉</h4>
+            
+            <br>
+
+            <i id="me2"></i>
+            <br>
+            <img src="img/me1.png" alt="graphicme" onmouseover="changeMe()" onmouseout="returnMe()" id="me" >
+            
+            <p id="name">Click the buttons below to know more about me..?</p>
+            
+            <br>
+
+            <button onclick="changeText()">Full Name ?</button>
+            <button onclick="changeText2()">D.O.B. ?</button>
+        </section>
+
+        <br>
+
+        </section>
+
+        <br>
+        <hr>
+
+        <section id="work">
+
+            <h2>My work experience</h2>
+            <!--change from pic to pic-->
+            <img src="img/musician.jpg" alt="musician" onclick="popupImg()">
+            <img src="img/videographer.JPG" alt="videographer" onclick="popupImg1()">
+            <img src="img/editor-color.JPG" alt="videoeditor" onclick="popupImg2()">
+
+        </section>
+    </main>
+
+    <footer id="contact">
+        <!--IG,LinkedIn-->
+        <a href="https://www.instagram.com/ninont?igsh=MWJuaHVrY29oYTNheQ%3D%3D&utm_source=qr"><img src="img/instagram.png" alt="ig-icon"></a>
+        <a href="https://www.linkedin.com/in/piyapat-mekrungsimun-bb5545284?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><img src="img/linkedin.png" alt="linkedin-icon"></a>
+        <h6>&copy;2025 by <i>NONT</i> Piyapat Mekrungsimun.</h6>
+    </footer>
+    
+</body>
+
+</html>
