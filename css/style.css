@@ -1,0 +1,153 @@
+html {
+    font-family: helvetica, sans-serif;
+    background-color: rgb(252, 249, 245);
+    scroll-behavior: smooth;
+    font-size: 1.2em;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    animation: fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0;}    
+    100% {opacity: 1;}
+}
+
+a {
+    text-decoration: none;
+}
+
+h5 {
+    line-height: 1.8;
+    font-weight: lighter;
+}
+
+hr {
+    width: 30%;
+}
+
+header {
+
+}
+
+header h1 {
+    font-size: 8em;
+}
+
+nav {
+    
+}
+
+nav ol {
+    margin: 0;
+    padding: 0;
+}
+
+nav ol li {
+    display: inline-block;
+    margin: 10px 10px 10px 10px;
+}
+
+nav ol li a {
+    color: black;
+    font-weight: lighter;
+    transition: .5s all ease;
+}
+
+nav ol li a:hover {
+    color: white;
+    font-weight:normal ;
+    text-shadow: 2px 0px 6px rgb(50, 50, 50);
+}
+
+main {
+
+}
+
+main #about {
+    margin-top: 10%;
+}
+
+#nont {
+    font-size: 300px;
+    margin: 0;
+    font-family: sans-serif;
+    line-height: 500px;
+}
+
+main #about i {
+    font-size: 13px;
+    font-weight: lighter;
+    color: burlywood;
+}
+
+main #about img {
+    margin: 2%;
+    border-radius: 50%;
+    transition: .5s all ease-in-out;
+}
+
+main #about img:hover {
+    border-radius: 10%;
+    box-shadow: 2px 0px 50px grey;
+    
+}
+
+main #about button {
+    background-color: black;
+    color: white;
+    padding: 25px 20px 25px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 500ms;
+    margin: 10px 10px 10px 10px;
+    width: 10%;
+    font-size: .8em;
+    font-weight: bold;
+}
+
+main #about button:hover {
+    background-color: rgb(247, 233, 214);
+    color: black;
+    
+}
+
+main #work {
+    margin: 5%;
+}
+
+main #work img {
+    border-radius: 40%;
+    margin: 3%;
+    transition: .3s all ease-in-out;
+    cursor: pointer;
+    animation: boxmove 5s infinite;
+}
+
+@keyframes boxmove {
+  50% {box-shadow: 0px 15px 20px rgb(182, 145, 94);}
+}
+
+main #work img:hover {
+    box-shadow: 5px 0px 40px gray;
+    scale: 1.1;
+    border-radius: 10%;
+}
+
+
+footer {
+    border-top: 2px solid black;
+    margin-top: 5%;
+}
+
+footer img {
+    margin: 2%;
+}
+
+footer h6 {
+    margin: 0% 0% 2% 0%;
+}
