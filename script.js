@@ -37,10 +37,10 @@ console.log(nickName);
 
 // below this is for changing text by pressing the button
 function changeText() {
-    document.getElementById("name").innerHTML = "My full name is " + fullName + " and my nickname is " + nickName + ".";
+    document.getElementById("name").innerHTML = "My full name is " + fullName + " (PI • YA • PAT)" + "<br>" + " and my nickname is " + nickName + " (It sounds like 'bone,' but change the first letter to 'n' and say it shorter)." + "<br>" + "(hope this helps 🤷🏻‍♂️)";
 }
 function changeText2() {
-    document.getElementById("name").innerHTML = age.day + " " + age.month + " " + age.year;
+    document.getElementById("name").innerHTML = age.day + " " + age.month + " " + age.year + " (I know-I know 🙂‍↕️)";
 }
 
 // below this are alert popup when click the images on work section
