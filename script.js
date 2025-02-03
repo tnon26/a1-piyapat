@@ -1,4 +1,27 @@
- // Change font family of my nickname every 1 second
+ // Pop up box and input name
+ var guestName = prompt("What is your name?");
+ if (guestName == null || guestName == "") {
+    Text = "Hey STRANGER! <br>Come, take a seat.<br>😌";
+    document.getElementById("greeting").innerHTML = Text;
+ } else {
+    Text = "Hello, " + guestName + "! <br>Welcome to my web site.<br>🤯";
+    document.getElementById("greeting").innerHTML = Text;
+ }
+window.onload = greeting ;
+
+// Change font color of the guest name every 1 second
+var colors = ["#000000", "#393E46", "#6D9886", "#F2E7D5", "#264653", "#2a9d8f", "#e76f51"];
+ var currentColorIndex = 0;
+
+ function changeColor() {
+    var textElement = document.getElementById("greeting");
+    textElement.style.color = colors[currentColorIndex];
+
+    currentColorIndex = (currentColorIndex + 1) % colors.length;
+ }
+ setInterval(changeColor, 1000);
+
+// Change font family of my nickname every 1 second
  var fonts = ["sans-serif","impact", "Times New Roman", "Verdana", "Courier New", "monospace"];
  var currentFontIndex = 0;
  
